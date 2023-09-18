@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+    font-family: Verdana;
+}
+
+tr, td:first-child{
+ width: 50px;
+}
+
+tr, td{
+    width: 100px;
+    border-bottom: 1px solid #2566c2;
+}
+
+thead td{
+    background-color: rgb(18, 180, 18);
+}
+
+tbody tr:nth-child(odd){
+ background-color: aquamarine;
+ color: rgb(140, 9, 160);
+}
+
+tbody tr:nth-child(even){
+    background-color: aliceblue;
+    color: blue;
+}
